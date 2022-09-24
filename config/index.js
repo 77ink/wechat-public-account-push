@@ -65,7 +65,7 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '老婆0',
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'ovY976FEDD5j7_PQ3Bs5KkKBJcd8,ovY976NHKJTbLjJ0F6pxetHSZbDw,ovY976BuRKFkbTyBQv5LV5610sh4',
+      id: 'ovY976FEDD5j7_PQ3Bs5KkKBJcd8',
       // 你想对他发送的模板消息的模板ID
       useTemplateId: 'JVi0TH4HN1TQgrm_eNUEf6xHlbHo9Jb4ErGHJYdcG1I',
       // 所在省份
@@ -167,7 +167,7 @@ const USER_CONFIG = {
     {
       name: '楷阳',
       id: 'ovY976NHKJTbLjJ0F6pxetHSZbDw',
-      useTemplateId: '',
+      useTemplateId: 'JVi0TH4HN1TQgrm_eNUEf6xHlbHo9Jb4ErGHJYdcG1I',
       province: '',
       city: '',
       horoscopeDate: '',
@@ -180,7 +180,7 @@ const USER_CONFIG = {
     {
       name: '阿斌',
       id: 'ovY976BuRKFkbTyBQv5LV5610sh4',
-      useTemplateId: '',
+      useTemplateId: 'JVi0TH4HN1TQgrm_eNUEf6xHlbHo9Jb4ErGHJYdcG1I',
       province: '',
       city: '',
       horoscopeDate: '',
