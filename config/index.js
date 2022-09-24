@@ -63,7 +63,7 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '老婆0',
+      name: '自己',
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ovY976FEDD5j7_PQ3Bs5KkKBJcd8',
       // 你想对他发送的模板消息的模板ID
@@ -168,12 +168,20 @@ const USER_CONFIG = {
       name: '楷阳',
       id: 'ovY976NHKJTbLjJ0F6pxetHSZbDw',
       useTemplateId: 'JVi0TH4HN1TQgrm_eNUEf6xHlbHo9Jb4ErGHJYdcG1I',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: [],
+      province: '江苏',
+      city: '徐州',
+      horoscopeDate: '06-26',
+      horoscopeDateType: '今日',
+      openUrl: '',
+      festivals: [
+      {
+          type: '生日', name: '阿斌', year: '2003', date: '08-04',
+        },
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '生日', name: '楷阳', year: '2003', date: '06-26',
+       },
+     ],
       customizedDateList: [],
       courseSchedule: null
     },
@@ -181,28 +189,23 @@ const USER_CONFIG = {
       name: '阿斌',
       id: 'ovY976BuRKFkbTyBQv5LV5610sh4',
       useTemplateId: 'JVi0TH4HN1TQgrm_eNUEf6xHlbHo9Jb4ErGHJYdcG1I',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: [],
+      province: '江苏',
+      city: '盐城',
+      horoscopeDate: '08-04',
+      horoscopeDateType: '今日',
+      openUrl: '',
+      festivals: [
+      {
+          type: '生日', name: '阿斌', year: '2003', date: '08-04',
+        },
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '生日', name: '楷阳', year: '2003', date: '06-26',
+       },
+     ],
       customizedDateList: [],
       courseSchedule: null
     },
-    {
-      name: '老婆3',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: [],
-      customizedDateList: [],
-      courseSchedule: null
-    }
     // 你可以不断按格式往下增加
   ],
 
